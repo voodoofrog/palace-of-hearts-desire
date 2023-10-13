@@ -1,0 +1,14 @@
+{
+  "name": "VoodooFrog's Assets",
+  "id": "ONNavjxD",
+  "version": "1.4",
+  "author": "VoodooFrog",
+  "keywords": "",
+  "allow_3rd_party_mapping_software_to_read": false,
+  "custom_color_overrides": {
+    "enabled": false,
+    "min_redness": 0.1,
+    "min_saturation": 0,
+    "red_tolerance": 0.04
+  }
+}

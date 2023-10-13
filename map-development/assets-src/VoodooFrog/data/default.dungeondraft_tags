@@ -1,0 +1,79 @@
+{
+  "tags": {
+    "[VF]Chairs": [
+      "textures/objects/fancy_chair_patterned_white_wood_walnut.webp"
+    ],
+    "[VF]Damage": [
+      "textures/objects/big_hole.png"
+    ],
+    "[VF]Doors": [
+      "textures/objects/cat_door.webp"
+    ],
+    "[VF]Floor Decor": [
+      "textures/objects/demons-mosaic.webp"
+    ],
+    "[VF]Miscellany": [
+      "textures/objects/wing.webp",
+      "textures/objects/test-stalk.png",
+      "textures/objects/storm-void.webp",
+      "textures/objects/maggots.png",
+      "textures/objects/cauldron-lid.webp",
+      "textures/objects/large-vine-1.png",
+      "textures/objects/purple-side-roof.webp",
+      "textures/objects/river-bridge.webp"
+    ],
+    "[VF]Statues": [
+      "textures/objects/metal_elk.webp",
+      "textures/objects/satyr-statue.png",
+      "textures/objects/woman_glass_statue.webp"
+    ],
+    "VFShapes": [
+      "textures/objects/circle-rings.png",
+      "textures/objects/circle-rings-thick-50.png"
+    ],
+    "[VF]Stairs": [
+      "textures/objects/round-tower-stairs-up.webp",
+      "textures/objects/round-tower-stairs-down.webp"
+    ],
+    "[VF]Tables": [
+      "textures/objects/extra-big-runner.png",
+      "textures/objects/long_table.png"
+    ],
+    "[VF]Trees": [
+      "textures/objects/willow3.webp"
+    ],
+    "[VF]Vehicles": [
+      "textures/objects/carriage.png",
+      "textures/objects/flying_carriage.webp"
+    ],
+    "[VF]Wall Decor": [
+      "textures/objects/elk_head.png",
+      "textures/objects/golden_elk_head.png"
+    ],
+    "[VF]Windows": [
+      "textures/objects/palace-window.webp"
+    ],
+    "Colorable": [
+      "textures/objects/circle-rings.png",
+      "textures/objects/circle-rings-thick-50.png",
+      "textures/objects/storm-void-colorable.webp"
+    ]
+  },
+  "sets": {
+    "VoodooFrog Assets": [
+      "[VF]Chairs",
+      "[VF]Damage",
+      "[VF]Doors",
+      "[VF]Floor Decor",
+      "[VF]Miscellany",
+      "[VF]Statues",
+      "VFShapes",
+      "[VF]Stairs",
+      "[VF]Tables",
+      "[VF]Trees",
+      "[VF]Vehicles",
+      "[VF]Wall Decor",
+      "[VF]Windows"
+    ]
+  }
+}
