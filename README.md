@@ -1,6 +1,6 @@
-# palace-of-hearts-desire
+# Palace of Heart's Desire (Remixed)
 
-Please add your description here.
+A module that provides a scene for the final of your Wild Beyond the Witchlight campaign in Foundry VTT.
 
 ## Installation
 
@@ -68,15 +68,11 @@ npm run link-project
 On Windows, creating symlinks requires administrator privileges so unfortunately
 you need to run the above command in an administrator terminal for it to work.
 
-
 ## Licensing
 
 This project is being developed under the terms of the
-[LIMITED LICENSE AGREEMENT FOR MODULE DEVELOPMENT] for Foundry Virtual Tabletop.
-
-Please add your licensing information here. Add your chosen license as
-`LICENSE` file to the project root and mention it here.  If you don't know which
-license to choose, take a look at [Choose an open source license].
+[LIMITED LICENSE AGREEMENT FOR MODULE DEVELOPMENT] for Foundry Virtual Tabletop and
+[Creative Commons].
 
 [LIMITED LICENSE AGREEMENT FOR MODULE DEVELOPMENT]: https://foundryvtt.com/article/license/
-[Choose an open source license]: https://choosealicense.com/
+[Creative Commons]: ./LICENSE
