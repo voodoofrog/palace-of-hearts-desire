@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "palace-of-hearts-desire",
+  "description": "",
+  "license": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp watch",
+    "link-project": "gulp link",
+    "clean": "gulp clean",
+    "clean:link": "gulp link --clean",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js --fix .",
+    "format": "prettier --write \"./**/*.(js|json|yml|css)\"",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "rollup": "^4.0.2",
+    "yargs": "^17.7.2"
+  },
+  "lint-staged": {
+    "*.(js)": "eslint --fix",
+    "*.(json|yml|css)": "prettier --write"
+  }
+}

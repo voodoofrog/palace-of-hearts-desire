@@ -1,0 +1,96 @@
+{
+  "id": "palace-of-hearts-desire",
+  "title": "Palace of Hearts Desire (Remixed)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "packs": [
+    {
+      "name": "pohd-actors",
+      "label": "Actors",
+      "path": "packs/pohd-actors",
+      "type": "Actor",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "pohd-macros",
+      "label": "Macros",
+      "path": "packs/pohd-macros",
+      "type": "Macro",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "pohd-scenes",
+      "label": "Scenes",
+      "path": "packs/pohd-scenes",
+      "type": "Scene",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "Rideable",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "The final map of the Wild Beyond the Witchlight module with revisions by NerdyRotica, DavidNessNess, and myself.",
+  "authors": [
+    {
+      "name": "VoodooFrog",
+      "flags": {}
+    },
+    {
+      "name": "NerdyRotica",
+      "flags": {}
+    },
+    {
+      "name": "DavidNessNess",
+      "flags": {}
+    }
+  ],
+  "scripts": ["module/palace-of-hearts-desire.js"]
+}
