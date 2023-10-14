@@ -36,6 +36,41 @@ const journalPacks = [];
  */
 const macroPacks = [`${moduleName}.pohd-macros`];
 
+Hooks.once('init', function () {
+  CONFIG.Wall.doorSounds.bah1 = {
+    label: 'Bah #1',
+    open: `modules/${moduleName}/assets/sounds/1-bah.ogg`,
+    close: 'sounds/doors/wood/close.ogg',
+    lock: 'sounds/doors/wood/lock.ogg',
+    test: 'sounds/doors/wood/test.ogg',
+    unlock: 'sounds/doors/wood/unlock.ogg',
+  };
+  CONFIG.Wall.doorSounds.bah2 = {
+    label: 'Bah #2',
+    open: `modules/${moduleName}/assets/sounds/2-bah.ogg`,
+    close: 'sounds/doors/wood/close.ogg',
+    lock: 'sounds/doors/wood/lock.ogg',
+    test: 'sounds/doors/wood/test.ogg',
+    unlock: 'sounds/doors/wood/unlock.ogg',
+  };
+  CONFIG.Wall.doorSounds.yah = {
+    label: 'Yah',
+    open: `modules/${moduleName}/assets/sounds/3-yah.ogg`,
+    close: 'sounds/doors/wood/close.ogg',
+    lock: 'sounds/doors/wood/lock.ogg',
+    test: 'sounds/doors/wood/test.ogg',
+    unlock: 'sounds/doors/wood/unlock.ogg',
+  };
+  CONFIG.Wall.doorSounds.gah = {
+    label: 'Gah',
+    open: `modules/${moduleName}/assets/sounds/4-gah.ogg`,
+    close: 'sounds/doors/wood/close.ogg',
+    lock: 'sounds/doors/wood/lock.ogg',
+    test: 'sounds/doors/wood/test.ogg',
+    unlock: 'sounds/doors/wood/unlock.ogg',
+  };
+});
+
 Hooks.once('scenePackerReady', (ScenePacker) => {
   // Initialise the Scene Packer with your adventure name and module name
   ScenePacker.Initialise({
