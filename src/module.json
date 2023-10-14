@@ -77,6 +77,11 @@
         "id": "tokenmagic",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "systems": [
