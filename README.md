@@ -1,6 +1,6 @@
 # Palace of Heart's Desire (Remixed)
 
-A module that provides a scene for the final of your Wild Beyond the Witchlight campaign in Foundry VTT.
+A module that provides a scene for the finale of your Wild Beyond the Witchlight campaign in Foundry VTT.
 
 ## Installation
 
