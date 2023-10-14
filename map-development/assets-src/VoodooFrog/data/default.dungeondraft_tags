@@ -31,6 +31,10 @@
       "textures/objects/circle-rings.png",
       "textures/objects/circle-rings-thick-50.png"
     ],
+    "[VF]Shapes": [
+      "textures/objects/circle-rings.png",
+      "textures/objects/circle-rings-thick-50.png"
+    ],
     "[VF]Stairs": [
       "textures/objects/round-tower-stairs-up.webp",
       "textures/objects/round-tower-stairs-down.webp"
@@ -68,6 +72,7 @@
       "[VF]Miscellany",
       "[VF]Statues",
       "VFShapes",
+      "[VF]Shapes",
       "[VF]Stairs",
       "[VF]Tables",
       "[VF]Trees",
