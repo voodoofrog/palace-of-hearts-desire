@@ -67,6 +67,16 @@
         "id": "tile-scroll",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "token-attacher",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "systems": [
