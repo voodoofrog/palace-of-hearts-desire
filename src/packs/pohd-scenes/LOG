@@ -1,5 +1,22 @@
-2023/10/15-00:51:46.208 72dc Recovering log #135
-2023/10/15-00:51:46.213 72dc Level-0 table #137: started
-2023/10/15-00:51:46.221 72dc Level-0 table #137: 557897 bytes OK
-2023/10/15-00:51:46.224 72dc Delete type=0 #135
-2023/10/15-00:51:46.225 72dc Delete type=3 #134
+2023/10/15-12:00:59.579 7430 Recovering log #138
+2023/10/15-12:00:59.583 7430 Delete type=0 #138
+2023/10/15-12:00:59.583 7430 Delete type=3 #136
+2023/10/15-12:13:14.316 7f14 Level-0 table #142: started
+2023/10/15-12:13:14.330 7f14 Level-0 table #142: 563241 bytes OK
+2023/10/15-12:13:14.331 7f14 Delete type=0 #140
+2023/10/15-12:13:14.331 7f14 Manual compaction at level-0 from '!scenes!1b6dfddseqHeUmwC' @ 72057594037927935 : 1 .. '!scenes.walls!1b6dfddseqHeUmwC.zzdnoKKQMFbkYkFA' @ 0 : 0; will stop at '!scenes.walls!epToBB5wQA6UgiKQ.zzdnoKKQMFbkYkFA' @ 133440 : 0
+2023/10/15-12:13:14.331 7f14 Compacting 2@0 + 0@1 files
+2023/10/15-12:13:14.351 7f14 Generated table #143@0: 11498 keys, 651269 bytes
+2023/10/15-12:13:14.351 7f14 Compacted 2@0 + 0@1 files => 651269 bytes
+2023/10/15-12:13:14.351 7f14 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/15-12:13:14.352 7f14 Delete type=2 #137
+2023/10/15-12:13:14.352 7f14 Delete type=2 #142
+2023/10/15-12:13:14.352 7f14 Manual compaction at level-0 from '!scenes.walls!epToBB5wQA6UgiKQ.zzdnoKKQMFbkYkFA' @ 133440 : 0 .. '!scenes.walls!1b6dfddseqHeUmwC.zzdnoKKQMFbkYkFA' @ 0 : 0; will stop at (end)
+2023/10/15-12:13:14.352 7f14 Manual compaction at level-1 from '!scenes!1b6dfddseqHeUmwC' @ 72057594037927935 : 1 .. '!scenes.walls!1b6dfddseqHeUmwC.zzdnoKKQMFbkYkFA' @ 0 : 0; will stop at '!scenes.walls!epToBB5wQA6UgiKQ.zzdnoKKQMFbkYkFA' @ 133440 : 0
+2023/10/15-12:13:14.352 7f14 Compacting 1@1 + 1@2 files
+2023/10/15-12:13:14.369 7f14 Generated table #144@1: 3841 keys, 472616 bytes
+2023/10/15-12:13:14.369 7f14 Compacted 1@1 + 1@2 files => 472616 bytes
+2023/10/15-12:13:14.369 7f14 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/15-12:13:14.370 7f14 Delete type=2 #129
+2023/10/15-12:13:14.370 7f14 Delete type=2 #143
+2023/10/15-12:13:14.370 7f14 Manual compaction at level-1 from '!scenes.walls!epToBB5wQA6UgiKQ.zzdnoKKQMFbkYkFA' @ 133440 : 0 .. '!scenes.walls!1b6dfddseqHeUmwC.zzdnoKKQMFbkYkFA' @ 0 : 0; will stop at (end)
