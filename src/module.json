@@ -52,6 +52,17 @@
       "flags": {}
     }
   ],
+  "packFolders": [
+    {
+      "name": "Palace of Heart's Desire",
+      "sorting": "a",
+      "color": "#b62ac0",
+      "ownership": {
+        "PLAYER": "NONE"
+      },
+      "packs": ["pohd-actors", "pohd-macros", "pohd-scenes", "pohd-journals"]
+    }
+  ],
   "relationships": {
     "requires": [
       {
