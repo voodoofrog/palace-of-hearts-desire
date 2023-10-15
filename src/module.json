@@ -39,6 +39,17 @@
       },
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "pohd-journals",
+      "label": "Journal Entries",
+      "path": "packs/pohd-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "relationships": {
